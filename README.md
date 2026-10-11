@@ -1,13 +1,18 @@
-<h1 align="center">Saurabh Bhagat</h1>
-<p align="center">
-  <em>Offensive security × AI — building autonomous pentest agents by day, arguing with them about false positives by night.</em>
-</p>
+<div align="center">
 
-<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:B22222,100:0d1117&height=220&section=header&text=Saurabh%20Bhagat&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Offensive%20Security%20%C3%97%20AI&descAlignY=56&descSize=20&animation=fadeIn" width="100%" alt="Saurabh Bhagat"/>
+
+<a href="https://github.com/saurabh-bhagat-stack">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=B22222&center=true&vCenter=true&width=760&lines=Offensive+security+%C3%97+AI;Chief+Exploit+Officer+%40+localhost;Teaching+local+LLMs+to+hack+%E2%80%94+carefully;Evidence-gated+findings%2C+not+vibes;breaking+things+since+git+init" alt="Typing SVG" />
+</a>
+
+<p>
   <img src="https://img.shields.io/badge/Chief%20Exploit%20Officer-%40localhost-111?style=flat-square" alt="Chief Exploit Officer @ localhost" />
   <img src="https://img.shields.io/badge/location-127.0.0.1-111?style=flat-square" alt="localhost" />
   <img src="https://img.shields.io/badge/paperwork-pending-yellow?style=flat-square" alt="paperwork pending" />
 </p>
+
+</div>
 
 ---
 
@@ -27,8 +32,8 @@ $ cat ~/.plan
 ### 🔧 What I'm building
 
 - **🛡️ VihaX Strike** — AI-powered automated penetration testing platform. A multi-agent pipeline (recon → vuln scan → exploit → verify → report) backed by a *deterministic* detection engine, so findings come with evidence instead of vibes. *(Next.js · TypeScript · Prisma · local LLMs)*
-- **🐍 Basilisk** — an AI/MCP pentest extension for Burp Suite. Evidence-gated triage that tells real bugs from noise. *(Kotlin · Montoya API)*
-- **🧞 Djinn** — security testing for the AI stack itself: LLM apps, agents, and MCP servers. A memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** — proof, not guesses. *(Kotlin · Burp · MCP)*
+- **🐍 Basilisk** — an autonomous, evidence-gated **web/API** penetration-testing agent that lives inside Burp Suite Pro. Handles the full modern web surface — SQLi, SSRF & out-of-band RCE, stored + DOM XSS, SSTI, path traversal, access-control / IDOR / BOLA across roles, GraphQL, JWT, OAuth, SAML, WebSockets and a lot more — and files a finding **only** when a deterministic oracle fires. Local-first, bring-your-own-model. *(Kotlin · Burp · Montoya API)*
+- **🧞 Djinn** — the AI/MCP counterpart: a Burp Suite Pro extension for pentesting **AI chatbots, agents, and MCP servers**. Tool-poisoning, prompt-injection, jailbreaks, cross-tenant IDOR, SSE/WebSocket transport attacks — a memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** (canary / Collaborator / protocol marker). *(Kotlin · Burp · MCP)*
 - **🧪 [mcp-vuln-lab](https://github.com/saurabh-bhagat-stack/mcp-vuln-lab)** — a public, Dockerized vulnerable lab for the MCP/AI stack: 50+ CVE-mapped targets across easy/medium/hard tiers, with negative controls to prove no false positives. The proving ground for Djinn. *(FastAPI · Docker)*
 
 ### 🧰 Toolbox
@@ -40,6 +45,7 @@ $ cat ~/.plan
   <img src="https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
   <img src="https://img.shields.io/badge/-Ollama-000?style=flat-square&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/-Burp%20Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
 
@@ -49,4 +55,7 @@ $ cat ~/.plan
 
 ---
 
-<p align="center"><sub>Lat: NaN, Lng: NaN · somewhere behind a proxy 👀</sub></p>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:B22222,100:8B0000&height=120&section=footer" width="100%" alt="" />
+  <sub>Lat: NaN, Lng: NaN · somewhere behind a proxy 👀</sub>
+</div>

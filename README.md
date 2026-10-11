@@ -28,7 +28,8 @@ $ cat ~/.plan
 
 - **🛡️ VihaX Strike** — AI-powered automated penetration testing platform. A multi-agent pipeline (recon → vuln scan → exploit → verify → report) backed by a *deterministic* detection engine, so findings come with evidence instead of vibes. *(Next.js · TypeScript · Prisma · local LLMs)*
 - **🐍 Basilisk** — an AI/MCP pentest extension for Burp Suite. Evidence-gated triage that tells real bugs from noise. *(Kotlin · Montoya API)*
-- **🧞 Djinn** — security testing for the AI stack itself: LLM apps, agents, and MCP servers. A memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** — proof, not guesses. Ships with a public [mcp-vuln-lab](https://github.com/saurabh-bhagat-stack/mcp-vuln-lab) of 50+ CVE-mapped targets to keep it honest. *(Kotlin · Burp · MCP)*
+- **🧞 Djinn** — security testing for the AI stack itself: LLM apps, agents, and MCP servers. A memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** — proof, not guesses. *(Kotlin · Burp · MCP)*
+- **🧪 [mcp-vuln-lab](https://github.com/saurabh-bhagat-stack/mcp-vuln-lab)** — a public, Dockerized vulnerable lab for the MCP/AI stack: 50+ CVE-mapped targets across easy/medium/hard tiers, with negative controls to prove no false positives. The proving ground for Djinn. *(FastAPI · Docker)*
 
 ### 🧰 Toolbox
 

@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:B22222,100:0d1117&height=220&section=header&text=Saurabh%20Bhagat&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Offensive%20Security%20%C3%97%20AI&descAlignY=56&descSize=20&animation=fadeIn" width="100%" alt="Saurabh Bhagat"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:B22222,100:0d1117&height=220&section=header&text=Saurabh%20Bhagat&fontColor=ffffff&fontSize=54&fontAlignY=36&desc=Offensive%20Security%20%C3%97%20AI&descAlignY=56&descSize=20" width="100%" alt="Saurabh Bhagat"/>
 
-<a href="https://github.com/saurabh-bhagat-stack">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=B22222&center=true&vCenter=true&width=760&lines=Offensive+security+%C3%97+AI;Chief+Exploit+Officer+%40+localhost;Teaching+local+LLMs+to+hack+%E2%80%94+carefully;Evidence-gated+findings%2C+not+vibes;breaking+things+since+git+init" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B0000,100:0d1117&height=44&text=Offensive%20security%20%C3%97%20AI&fontColor=ffffff&fontSize=20&fontAlignY=60" width="760" alt="Offensive security × AI" />
 
 <p>
   <img src="https://img.shields.io/badge/Chief%20Exploit%20Officer-%40localhost-111?style=flat-square" alt="Chief Exploit Officer @ localhost" />
@@ -31,10 +29,11 @@ $ cat ~/.plan
 
 ### 🔧 What I'm building
 
-- **🛡️ VihaX Strike** — AI-powered automated penetration testing platform. A multi-agent pipeline (recon → vuln scan → exploit → verify → report) backed by a *deterministic* detection engine, so findings come with evidence instead of vibes. *(Next.js · TypeScript · Prisma · local LLMs)*
-- **🐍 Basilisk** — an autonomous, evidence-gated **web/API** penetration-testing agent that lives inside Burp Suite Pro. Handles the full modern web surface — SQLi, SSRF & out-of-band RCE, stored + DOM XSS, SSTI, path traversal, access-control / IDOR / BOLA across roles, GraphQL, JWT, OAuth, SAML, WebSockets and a lot more — and files a finding **only** when a deterministic oracle fires. Local-first, bring-your-own-model. *(Kotlin · Burp · Montoya API)*
-- **🧞 Djinn** — the AI/MCP counterpart: a Burp Suite Pro extension for pentesting **AI chatbots, agents, and MCP servers**. Tool-poisoning, prompt-injection, jailbreaks, cross-tenant IDOR, SSE/WebSocket transport attacks — a memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** (canary / Collaborator / protocol marker). *(Kotlin · Burp · MCP)*
-- **🧪 [mcp-vuln-lab](https://github.com/saurabh-bhagat-stack/mcp-vuln-lab)** — a public, Dockerized vulnerable lab for the MCP/AI stack: 50+ CVE-mapped targets across easy/medium/hard tiers, with negative controls to prove no false positives. The proving ground for Djinn. *(FastAPI · Docker)*
+- **🛡️ VihaX Strike** — AI-powered automated penetration testing platform. A multi-agent pipeline (recon → vuln scan → exploit → verify → report) backed by a *deterministic* detection engine, so findings come with evidence instead of vibes. *(Next.js · TypeScript · Prisma · local LLMs)* **(private)**
+- **🐍 Basilisk** — an autonomous, evidence-gated **web/API** penetration-testing agent that lives inside Burp Suite Pro. Handles the full modern web surface — SQLi, SSRF & out-of-band RCE, stored + DOM XSS, SSTI, path traversal, access-control / IDOR / BOLA across roles, GraphQL, JWT, OAuth, SAML, WebSockets and a lot more — and files a finding **only** when a deterministic oracle fires. Local-first, bring-your-own-model. *(Kotlin · Burp · Montoya API)* **(private — going public soon)**
+- **🧞 Djinn** — the AI/MCP counterpart: a Burp Suite Pro extension for pentesting **AI chatbots, agents, and MCP servers**. Tool-poisoning, prompt-injection, jailbreaks, cross-tenant IDOR, SSE/WebSocket transport attacks — a memory-driven agentic scanner where the model *steers* but every finding stays **oracle-gated** (canary / Collaborator / protocol marker). *(Kotlin · Burp · MCP)* **(private — going public soon)**
+- **🦉 owlforge** — a Strix-inspired, local-first platform for autonomous pentest missions: give it a target and a mission brief and a root agent spawns specialized children (recon → auth → IDOR → validation) that run real tools inside a Dockerized Kali sandbox with Caido proxy capture, all driven by a local LLM. *(Next.js · Bun · Docker · local LLMs)* **(private — going public soon)**
+- **🧪 [mcp-vuln-lab](https://github.com/saurabh-bhagat-stack/mcp-vuln-lab)** — a public, Dockerized vulnerable lab for the MCP/AI stack: 55+ CVE-mapped scenarios across easy/medium/hard tiers, with negative controls to prove no false positives. The proving ground for Djinn. *(FastAPI · Docker)* **(public)**
 
 ### 🧰 Toolbox
 
